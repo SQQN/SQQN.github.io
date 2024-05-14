@@ -1,0 +1,60 @@
+body {
+    background-color: #e5f0ff;
+    padding: 16px;
+    margin: 0%;
+}
+
+/* 전체 레이아웃 */
+#container {
+    margin: 0px auto;
+    /* width: 80vw; */
+    height: 100%;
+}
+
+/* 제목 */
+#title {
+    padding: 24px;
+    margin: 16px;
+    font-size: 24pt;
+}
+
+.card {
+    margin: 0px 24px 24px 24px;
+    background-color: white;
+    font-size: 20pt;
+    text-align: left;
+    border-radius: 1.5em;
+}
+
+#cardTitle {
+    padding: 24px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#cardList {
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 14pt;
+    display: flex;
+}
+
+#cardList:hover {
+    border-radius: 1.5em;
+    background-color: lightgray;
+}
+
+#btnTxt {
+    margin-left: 8px;
+    font-size: 14pt;
+}
+
+#icon {
+    /* padding-right: 16px; */
+    width: 20px;
+    height: 20px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: 1px solid black;
+}
